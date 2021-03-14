@@ -1,0 +1,15 @@
+{
+  "name": "reg_form",
+  "version": "1.0.0",
+  "description": "form submit by ajax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shariful",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.1"
+  }
+}

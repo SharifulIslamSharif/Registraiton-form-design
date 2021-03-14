@@ -1,0 +1,63 @@
+body {
+    background-image: url(IMG_20190628_1428151.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: dodgerblue;
+    display: block;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+    .input-field:focus {
+        border: 2px solid dodgerblue;
+    }
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    background-color:brown;
+}
+i:hover {
+    background-color: brown;
+}
+
+.collapse navbar-collapse ul li a:hover {
+    color: white;
+}
